@@ -1,72 +1,70 @@
 body {
-    width: 100%;
-    height: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
 body h1 {
-    text-align: center;
-    justify-content: center;
-    width: 100vw;
+  text-align: center;
+  justify-content: center;
+  width: 100vw;
 }
 
- .tves {
-    text-align: center;
-    justify-content: center;
-    height: 10vh;
- }
+.tves {
+  text-align: center;
+  justify-content: center;
+  height: 10vh;
+}
 
- .tves button{
-    background: hsl(243, 100%, 7%);
-    width: 6vw;
-    height: 3.5vh;
-    color: #40e0d0;
- }
- .tves button:hover{
-    background: #008000;
-    color: #800080;
- }
+.tves button {
+  background: hsl(243, 100%, 7%);
+  width: 6vw;
+  height: 3.5vh;
+  color: #40e0d0;
+}
+.tves button:hover {
+  background: #008000;
+  color: #800080;
+}
 
 .tves input {
-    width: 25vw;
-    height: 3vh;
-    background: #ffa500;
-    color: #020024;
+  width: 25vw;
+  height: 3vh;
+  background: #ffa500;
+  color: #020024;
 }
 
 .texts {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    width: 25vw;
-    margin-left: 36%;
-    color: #090979;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 25vw;
+  margin-left: 36%;
+  color: #090979;
 }
 
 #result {
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
 }
 
 @media screen and (max-width: 600px) {
-    .tves input {
-        height: auto;
-        width: 30%;
-    }
+  .tves input {
+    height: auto;
+    width: 30%;
+  }
 
-    .tves button {
-        height: auto;
-        width: 12vw ;
-    }
+  .tves button {
+    height: auto;
+    width: 12vw;
+  }
 
-    .texts {
-    padding-right: 70px;  
+  .texts {
+    padding-right: 70px;
     margin-right: 50%;
     margin-left: 30%;
-    
-    }
-
+  }
 }
