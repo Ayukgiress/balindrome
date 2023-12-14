@@ -1,7 +1,6 @@
 body {
   width: 100%;
   height: 100%;
-  background: rgb(2, 0, 36);
   background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
@@ -18,11 +17,12 @@ body h1 {
 }
 
 .tves button {
-  background: hsl(243, 100%, 7%);
+  background: #020024;
   width: 6vw;
   height: 3.5vh;
   color: #40e0d0;
 }
+
 .tves button:hover {
   background: #008000;
   color: #800080;
