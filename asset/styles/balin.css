@@ -41,7 +41,6 @@ body h1 {
   justify-content: center;
   background: white;
   width: 25vw;
-  margin-left: 36%;
   color: #090979;
   padding-right: 70px;
   margin-right: 50%;
@@ -54,11 +53,4 @@ body h1 {
   height: 20vh;
 }
 
-.tves input {
-  height: auto;
-  width: 30%;
-}
 
-/* .texts {
- 
-} */
