@@ -16,7 +16,7 @@ console.log(Palindrome('baab'))
 
 // we then define the function by saying
 
-//its should check if its a palinndrome or not
+// its should check if its a palinndrome or not
 
 function checkPalindrome () {
   const word = document.getElementById('placeholder').value
@@ -29,3 +29,5 @@ function checkPalindrome () {
     answer.innerHTML = 'the word is not a palindrom'
   }
 }
+
+checkPalindrome()
